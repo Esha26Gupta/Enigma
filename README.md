@@ -1,5 +1,6 @@
 # Enigma
-Project Status: Not completed 
+Project Status: Not completed
+
 Team Size: 3
 
 Project Title: NAVIGATE THE MARS ROVER 
