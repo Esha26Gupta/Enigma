@@ -1,0 +1,126 @@
+
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+input {
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+    font-weight: normal;
+}
+
+
+#container {
+    position: absolute;
+    top: 0px;
+    outline: 2px solid #000;
+    font-size: 0;
+    margin: auto;
+    height: 980px;
+    width: 1700px;
+    padding: 0;
+    border: none;
+}
+
+.grid {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: 1px solid #000;
+    display: inline-block;
+}
+
+.panel {
+    position: absolute;
+    padding: 100px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    cursor: default;
+}
+#algorithm_panel {
+    right: 20px;
+    top: 20px;
+}
+
+#instructions_panel {
+    top: 20px;
+    left: 20px;
+    width: 550px;
+}
+
+#hide_instructions {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    font-size: 90%;
+    cursor: pointer;
+}
+
+#hide_instruction:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+.right_panel {
+    width: 250px;
+    right: 20px;
+}
+.option_header {
+    font-size: 80%;
+    margin-left: 20px;
+}
+
+.option_label {
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    font-size: 90%;
+    cursor: pointer;
+    padding: 2px 8px;
+    margin: 0 2%;
+    width: 28%;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.finder_section {
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.sub_options {
+    padding: 2px;
+    font-size: 14px;
+    margin: 2px 30px 0;
+}
+.white {
+    color: #fff;
+}
+
+.green {
+    color: #0d0;
+}
+
+.red {
+    color: #ff9166;
+}
+
+.spinner {
+    width: 2em;
+}
