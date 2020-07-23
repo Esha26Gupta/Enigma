@@ -1,5 +1,6 @@
 # Enigma
 Project Status: Not completed 
+Team Size: 3
 
 Project Title: NAVIGATE THE MARS ROVER 
 Problem statement: To calculate the shortest path between the source and the destination through a stopping point.
