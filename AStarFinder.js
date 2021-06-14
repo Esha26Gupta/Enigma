@@ -17,7 +17,7 @@ var DiagonalMovement = require('../core/DiagonalMovement');
  *     suboptimal paths, in order to speed up the search.
  */
 var Astar = (function() {
-
+    
     'use strict';
 
     // Node structure
